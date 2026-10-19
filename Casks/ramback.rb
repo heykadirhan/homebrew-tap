@@ -1,6 +1,6 @@
 cask "ramback" do
-  version "1.0"
-  sha256 "174194f4519afc91190292228e524d0001a1f00b4e89137de144c3a8083d9579"
+  version "1.0.1"
+  sha256 "219c39e77e32203ed279342b8c4946dd6665495307bcd128f9ceaf2535314674"
 
   url "https://ramback.app/download/Ramback-#{version}.dmg"
   name "Ramback"
