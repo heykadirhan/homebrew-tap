@@ -4,7 +4,7 @@ cask "ramback" do
 
   url "https://ramback.app/download/Ramback-#{version}.dmg"
   name "Ramback"
-  desc "Menu bar app that shows and stops your dev stack: simulators, emulators, daemons, servers"
+  desc "Menu bar app that shows and stops simulators, emulators, daemons and dev servers"
   homepage "https://ramback.app/"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "ramback" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Ramback.app"
   # The CLI and MCP server ship inside the app.
